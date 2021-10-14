@@ -1,0 +1,110 @@
+
+/*Importando a fonte*/
+
+@import url('https://fonts.googleapis.com/css2? family = Poppins: ital, wght @ 1.100 & display = swap');
+
+
+body {
+    background-color: #262626 !important; 
+    color: #DBDBDB !important;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+}
+
+.logo{
+    float: left;
+    margin-right: 15px;
+    margin-top: 2px;
+}
+
+input {
+    background-color: #1B1D23 !important;
+    color: #AAAAAA !important;
+    border: #1B1D23 !important;
+}
+.form-login{
+    padding-top: 10px;
+    float: right;
+}
+
+.img-slide{
+    max-width:300px;
+    max-height:550px;
+    width: auto;
+    height: auto;
+}
+
+.form-inline button {
+    color: #9D9D9D;
+    background-color: #262626;
+    border: #262626;
+}
+.form-inline button img {
+    width: 20px;
+    height: 20px;
+    padding-bottom: 2px;
+    padding-right: 2px;
+}
+
+.youtube {
+margin-left: 325px;
+
+}
+
+.title{
+font-size: 90px;
+text-align: center;
+letter-spacing: 20px;
+background-color:white;
+text-shadow: 2px 2px 10px white;
+
+}
+
+
+
+
+    .youtube{
+        margin-bottom: 100px;
+    }
+
+    @media (max-width:600px) {
+        .youtube {
+            margin-left: 6px;    }       
+         
+        }
+
+    
+     .card-depoimentos{
+        border-radius: 17px;
+        background: #262626;
+        box-shadow:  7px 7px 14px #212121,
+                     -7px -7px 14px #2b2b2b;
+    }
+
+    .card-img{
+        width: 150px;
+        height: 150px;
+        
+    }
+
+
+    .footer {
+        
+        background: #39393B;
+    }
+
+    .footer a {
+        color: #9D9D9D;
+    }
+
+.texto-card-navbar{
+    padding: 30px;
+}
+
+.dropdown-menu-header{
+    background-color: #39393B !important;
+     width: 400px;
+     text-align: center;
+}
